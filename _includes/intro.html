@@ -1,0 +1,19 @@
+<h1>Hi, I&#39;m Angelo Cordon.</h1>
+<h2 >I love beautiful brands and well thought-out products.</h2>
+<h3>I co-founded <a href="http://www.avividivisual.com" target="_blank">A Vivid Visual</a> and <a href="#" target="_blank">Filipinos Forward</a>. Every now and then, I try to blog about my <a href="http://www.dadpreneur.me" target="_blank">entrepreneurship escapades</a>.</h3>
+<h3>You can find me elsewhere here:</h3>
+<ul>
+  {% for item in site.data.settings.social %}
+    <li>
+      {% if item.link == 'Email' %}
+        <a href="mailto:{{ item.url }}" target="_blank">
+          <i class="fa fa-{{ item.icon }} fa-2x"></i>
+        </a>
+      {% else %}
+        <a href="{{ item.url }}" target="_blank">
+          <i class="fa fa-{{ item.icon }} fa-2x"></i>
+        </a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

@@ -1,26 +1,37 @@
-# #-------------------------------
-# # General Site Settings
-# #
-# # title:
-# # description:
-# # email:
+#-------------------------------
+# General Site Settings
 #
-# #-------------------------------
-# # SEO Section
-#
-# # NOTE: Providing SEO information will make this website more searchable on the internet.
-#
-# seo:
-#   description:
-#   rel-author:
-#   rel-publisher:
-#
-# #-------------------------------
-# # Google Analytics Section
-#
-# # Analytics helps you understand who visits your website.
-# # Learn more at: http://support.google.com/analytics/answer/1008065
-#
-# # NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-#
-# #google-analytics-ua: UA-XXXXXX-X
+title: Angelo Cordon | Web Designer & Developer
+description: I love beautiful brands well thought-out products. I co-founded A Vivid Visual and Filipinos Forward. Every now and then, I try to blog about my entrepreneurship escapades.
+email: angelo@avividivisual.com
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: I love beautiful brands well thought-out products. I co-founded A Vivid Visual and Filipinos Forward. Every now and then, I try to blog about my entrepreneurship escapades.
+  # rel-author:
+  # rel-publisher:
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# Social
+
+social:
+- {link: Email, icon: envelope, url: 'angelocordon@gmail.com' }
+- {link: Facebook, icon: facebook, url: 'http://www.facebook.com/angelocordon' }
+- {link: Twitter, icon: twitter, url: 'http://www.twitter.com/angelocordon'}
+- {link: Behance, icon: behance, url: 'http://www.behance.net/angelocordon'}
+# - {link: Dribbble, icon: dribbble, url: 'http://www.dribbble.com/angelocordon'}
+- {link: Github, icon: github-alt, url: 'http://www.github.com/angelocordon'}
