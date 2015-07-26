@@ -1,10 +1,16 @@
-<h1>Hi, I&#39;m Angelo Cordon.</h1>
-<h2 >I love beautiful brands and well thought-out products.</h2>
-<h3>I co-founded <a href="http://www.avividivisual.com" target="_blank">A Vivid Visual</a> and <a href="#" target="_blank">Filipinos Forward</a>. Every now and then, I try to blog about my <a href="http://www.dadpreneur.me" target="_blank">entrepreneurship escapades</a>.</h3>
-<h3>You can find me elsewhere here:</h3>
-<ul>
-  {% for item in site.data.settings.social %}
-    <li>
+<div class="card">
+  <div class="avatar">
+  </div>
+  <div class="intro">
+    <h1>Hi, I'm Angelo Cordon.</h1>
+    <h2>I love designing beautiful brands and building well thought-out products.</h2>
+  </div>
+  <div class="about">
+    <p>I co-founded <a href="http://www.avividivisual.com" target="_blank">A Vivid Visual</a> and <a href="#" target="_blank">Filipinos Forward</a>. Every now and then, I try to blog about my <a href="http://www.dadpreneur.me" target="_blank">entrepreneurship escapades</a>.</p>
+    <p><a href="mailto:angelocordon@gmail.com">tl;dr: I make websites. | <span class="hire">Hire Me</span>.</a></p>
+  </div>
+  <div class="social">
+    {% for item in site.data.settings.social %}
       {% if item.link == 'Email' %}
         <a href="mailto:{{ item.url }}" target="_blank">
           <i class="fa fa-{{ item.icon }} fa-2x"></i>
@@ -14,6 +20,6 @@
           <i class="fa fa-{{ item.icon }} fa-2x"></i>
         </a>
       {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </div>
+</div>

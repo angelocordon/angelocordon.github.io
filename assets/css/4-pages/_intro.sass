@@ -1,0 +1,50 @@
+.card
+  display: block
+  margin: 0 auto
+  max-width: 460px
+
+.avatar
+  display: block
+  width: 100px
+  height: 100px
+  border-radius: 50%
+  border: 5px solid white
+  background: url('../img/angelocordon.jpg') no-repeat
+  background-position: center
+  background-size: contain
+  margin-left: 30px
+  position: relative
+  z-index: 20
+  top: 50px
+
+.intro, .about, .social
+  // max-width: 400px
+  margin: 0px
+  padding: 20px 30px
+
+.about, .social
+  background: #fff
+
+.intro
+  background: url('../img/background-about.png') no-repeat
+  background-size: cover
+  background-color: $text-color
+  height: auto
+  padding-top: 50px
+  h1, h2
+    color: #f0f0f0
+
+.social
+  border-top: 1px solid lighten($text-color, 60%)
+  text-align: center
+  a
+    margin: 0 5px
+    color: #a1a1a1
+    @media (min-width: 568px)
+      margin: 0 10px
+    &:hover
+      color: $link-color
+
+.hire
+  font-weight: bold
+  letter-spacing: 1px

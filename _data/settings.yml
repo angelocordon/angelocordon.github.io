@@ -30,8 +30,8 @@ seo:
 
 social:
 - {link: Email, icon: envelope, url: 'angelocordon@gmail.com' }
-- {link: Facebook, icon: facebook, url: 'http://www.facebook.com/angelocordon' }
 - {link: Twitter, icon: twitter, url: 'http://www.twitter.com/angelocordon'}
+- {link: Facebook, icon: facebook, url: 'http://www.facebook.com/angelocordon' }
 - {link: Behance, icon: behance, url: 'http://www.behance.net/angelocordon'}
 # - {link: Dribbble, icon: dribbble, url: 'http://www.dribbble.com/angelocordon'}
 - {link: Github, icon: github-alt, url: 'http://www.github.com/angelocordon'}
