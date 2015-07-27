@@ -3,13 +3,20 @@
   color: #f0f0f0
   display: block
   margin: 0
-  padding: 20px
+  padding: 20px 20px 0px 20px
   font-family: 'montserrat', sans-serif
   height: 100vh
+  position: absolute
+  z-index: -20
+  top: 0px
   a
     color: #F9731A
   @media (min-width: 600px)
     max-width: 30%
+
+.close
+  @extend .toggle
+  margin-top: 0px
 
 ul
   margin: 0
@@ -18,6 +25,7 @@ ul
 
 li
   list-style-type: none
+  padding-left: 13px
   color: #accc49
   span
     color: #f0f0f0
