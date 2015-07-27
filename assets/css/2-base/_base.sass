@@ -58,8 +58,7 @@ a
   outline: 0
 
 a:hover, a:focus
-  color: lighten($link-color, 20%)
-
+  color: $text-color
 
 
 // Selection colors (easy to forget)
@@ -91,9 +90,8 @@ body
   color: $text-color
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
-  max-width: 960px
   margin: 0 auto
-  padding: 0 20px
+  padding: 0
 
 h1, h2
   font-family: 'Montserrat', sans-serif
@@ -105,13 +103,3 @@ h1
 h2
   font-size: 18px
   line-height: 1.5
-
-ul
-  padding: 0
-
-li
-  display: inline-block
-  list-style: none
-  margin: 0 20px
-  &:first-child
-    margin-left: 0
