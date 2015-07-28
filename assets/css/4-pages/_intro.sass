@@ -6,6 +6,9 @@
   @media (min-width: 1024px)
     max-width: 60%
     padding-top: 20px
+    left: 0px
+
+
 
 .intro-close
   transition: 0.5s
@@ -13,6 +16,11 @@
   -ms-transform: translate(-100%,0px) /* IE 9 */
   -webkit-transform: translate(-100%,0px) /* Safari */
   transform: translate(-100%,0px)
+  @media (min-width: 1024px)
+    -ms-transform: translate(-0px,0px) /* IE 9 */
+    -webkit-transform: translate(0px,0px) /* Safari */
+    transform: translate(0px,0px)
+
 
 .intro-open
   transition: 0.5s
