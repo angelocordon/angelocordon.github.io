@@ -6,8 +6,8 @@ $( document ).ready(function() {
   });
 
   $(".close").click(function() {
-    $(".intro").removeClass("intro-close");
-    $(".intro").addClass("intro-open");
+      $(".intro").removeClass("intro-close");
+      $(".intro").addClass("intro-open");
   });
 
 });

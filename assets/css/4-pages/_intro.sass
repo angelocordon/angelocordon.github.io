@@ -1,21 +1,19 @@
 .intro
-  display: block
-  margin: 0 auto
-  padding: 0 20px 20px
-  max-width: 460px
   background-color: $bg-color
-  position: absolute
+  min-height: 100vh
+  position: relative
+  z-index: 10
 
 .intro-close
-  transition: 1s
-  -webkit-transition: 1s
+  transition: 0.5s
+  -webkit-transition: 0.5s
   -ms-transform: translate(-100%,0px) /* IE 9 */
   -webkit-transform: translate(-100%,0px) /* Safari */
   transform: translate(-100%,0px)
 
 .intro-open
-  transition: 1s
-  -webkit-transition: 1s
+  transition: 0.5s
+  -webkit-transition: 0.5s
   -ms-transform: translate(0px,0px) /* IE 9 */
   -webkit-transform: translate(0px,0px) /* Safari */
   transform: translate(0px,0px)
@@ -24,7 +22,7 @@
   display: block
   text-align: right
   font-family: 'Montserrat', sans-serif
-  margin-top: 20px
+  padding-top: 20px
 
 .avatar
   display: block

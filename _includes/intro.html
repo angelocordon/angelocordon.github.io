@@ -1,29 +1,31 @@
 <div class="intro">
-  <span class="toggle">
-    <a href="#"><i class="fa fa-list"></i> CV</a>
-  </span>
-  <div class="avatar">
+  <div class="wrap">
+    <span class="toggle">
+      <a href="#"><i class="fa fa-list"></i> CV</a>
+    </span>
+    <div class="avatar">
+    </div>
+    <div class="hello">
+      <h1>Hi, I'm Angelo Cordon.</h1>
+      <h2>I love designing beautiful brands and building well thought-out products.</h2>
+    </div>
+    <div class="about">
+      <p>I co-founded <a href="http://www.avividivisual.com" target="_blank">A Vivid Visual</a> and <a href="#" target="_blank">Filipinos Forward</a>. Every now and then, I try to blog about my <a href="http://www.dadpreneur.me" target="_blank">entrepreneurship escapades</a>.</p>
+      <p><a href="mailto:angelocordon@gmail.com">tl;dr: I make websites. | <span class="hire">Hire Me</span>.</a></p>
+    </div>
+    <div class="social">
+      {% for item in site.data.settings.social %}
+        {% if item.link == 'Email' %}
+          <a href="mailto:{{ item.url }}" target="_blank">
+            <i class="fa fa-{{ item.icon }} fa-2x"></i>
+          </a>
+        {% else %}
+          <a href="{{ item.url }}" target="_blank">
+            <i class="fa fa-{{ item.icon }} fa-2x"></i>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <small><i class="fa fa-code"></i> with <i class="fa fa-heart"></i> in San Francisco, CA</small>
   </div>
-  <div class="hello">
-    <h1>Hi, I'm Angelo Cordon.</h1>
-    <h2>I love designing beautiful brands and building well thought-out products.</h2>
-  </div>
-  <div class="about">
-    <p>I co-founded <a href="http://www.avividivisual.com" target="_blank">A Vivid Visual</a> and <a href="#" target="_blank">Filipinos Forward</a>. Every now and then, I try to blog about my <a href="http://www.dadpreneur.me" target="_blank">entrepreneurship escapades</a>.</p>
-    <p><a href="mailto:angelocordon@gmail.com">tl;dr: I make websites. | <span class="hire">Hire Me</span>.</a></p>
-  </div>
-  <div class="social">
-    {% for item in site.data.settings.social %}
-      {% if item.link == 'Email' %}
-        <a href="mailto:{{ item.url }}" target="_blank">
-          <i class="fa fa-{{ item.icon }} fa-2x"></i>
-        </a>
-      {% else %}
-        <a href="{{ item.url }}" target="_blank">
-          <i class="fa fa-{{ item.icon }} fa-2x"></i>
-        </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-  <small><i class="fa fa-code"></i> with <i class="fa fa-heart"></i> in San Francisco, CA</small>
 </div>
