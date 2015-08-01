@@ -3,7 +3,7 @@
 #
 title: Angelo Cordon | Web Designer & Developer
 description: I love beautiful brands well thought-out products. I co-founded A Vivid Visual and Filipinos Forward. Every now and then, I try to blog about my entrepreneurship escapades.
-email: angelo@avividivisual.com
+email: angelo@avividvisual.com
 
 #-------------------------------
 # SEO Section
@@ -29,9 +29,17 @@ seo:
 # Social
 
 social:
-- {link: Email, icon: envelope, url: 'angelocordon@gmail.com' }
-- {link: Twitter, icon: twitter, url: 'http://www.twitter.com/angelocordon'}
-- {link: Facebook, icon: facebook, url: 'http://www.facebook.com/angelocordon' }
+- {link: LinkedIn, icon: linkedin, url: 'htp://www.linkedin.com/in/angelocordon'}
 - {link: Behance, icon: behance, url: 'http://www.behance.net/angelocordon'}
-# - {link: Dribbble, icon: dribbble, url: 'http://www.dribbble.com/angelocordon'}
+- {link: Dribbble, icon: dribbble, url: 'http://www.dribbble.com/angelocordon'}
 - {link: Github, icon: github-alt, url: 'http://www.github.com/angelocordon'}
+
+#-------------------------------
+# Past-Projects
+
+projects:
+- {name: 'A Vivid Visual', desc: "AVV's website is built with Jekyll and SASS, and hosted on Github.",url: 'avividvisual', github: 'avividvisual/avividvisual.github.io' }
+- {name: 'Sovereign Gaming League', desc: "Built a web-application using Ruby on Rails, SASS, Heroku and AWS." }
+- {name: 'The Great Baby Romp', desc: "Customized and branded a template for use with the Squarespace platform. Used Squarespace's version of Liquid, LESS for styling and Bootstrap." }
+- {name: 'Ask a Nanny', desc: " Created a custom Squarespace template that copied the original design from an iWeb blog. Also implemented a responsive layout using media queries and javascript. Tools used: Git, LESS, Bootstrap, Vanilla JS", url: 'askananny'}
+- {name: 'Life Well Organized', desc: "Designed and developed. Built using PHP to create a modularized architecture to plug and play various body content with footer and navigation elements. Used Javascript libraries to create a smooth user experience.", url: 'lifewellorganized'}

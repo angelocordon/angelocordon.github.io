@@ -20,11 +20,23 @@
 			<li><span>frameworks:</span> Ruby on Rails, Jekyll, Bootstrap, Susy</li>
 		</ul>
 
-		<span class="class">.past-projects</span>
+		<span class="class">.past-projects, .clients</span>
 		<ul>
-			<li><span>-web-development:</span> The Great Baby Romp, Ask a Nanny, Life Well Organized, Sovereign Gaming League</li>
-			<li><span>-graphic-design:</span> The UPS Store, Roostertail, Crown &amp; Crumpet</li>
-			<li><span>-mobile-app-design:</span> Shiploop</li>
+			<li><span>-web-development:</span><br>
+			{% for project in site.data.settings.projects %}
+				<p class="project">{{ project.name }}
+					{% if project.url %}
+						<a href="http://www.{{ project.url }}.com" target="_blank"><i class="fa fa-link"></i> Visit Website</a>
+					{% endif %}
+					{% if project.github %}
+						<a href="http://www.github.com/{{ project.github }}" target="_blank"><i class="fa fa-code"></i> See Code</a>
+					{% endif %}
+				</p>
+				<p class="comment">
+					/* {{ project.desc }} */
+				</p>
+			{% endfor %}
+			</li>
 		</ul>
 	</div>
 </div>
