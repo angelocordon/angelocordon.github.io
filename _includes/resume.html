@@ -14,26 +14,27 @@
 
 		<span class="class">.looking-for</span>
 		<ul>
-			<li><span>full-time position:</span> Front End Developer, UI Designer/Developer</li>
+			<li><span>full-time position:</span> Ruby on Rails Developer</li>
+			<li><span>freelance work:</span> Website Design & Development, Squarespace</li>
 		</ul>
 
 		<span class="class">.technical-skills</span>
 		<ul>
-			<li><span>languages:</span> HTML, CSS, JS, Ruby</li>
-			<li><span>frameworks:</span> Ruby on Rails, Jekyll, Bootstrap, Susy</li>
+			<li><span>usual tech stack:</span> Ruby on Rails, Bootstrap, Angular</li>
+			<li><span>when designing:</span> Photoshop, Illustrator</li>
 		</ul>
 
 		<span class="class">.past-projects, .clients</span>
 		<ul>
-			<li><span>-web-development:</span><br>
+			<li>
 			{% for project in site.data.settings.projects %}
 				<p class="project">{{ project.name }}
 					{% if project.url %}
-						<a href="http://www.{{ project.url }}.com" target="_blank"><i class="fa fa-link"></i> Visit Website</a>
+						<a href="{{ project.url }}" target="_blank"><i class="fa fa-link"></i> Website</a>
 					{% endif %}
-					{% if project.github %}
+					<!-- {% if project.github %}
 						<a href="http://www.github.com/{{ project.github }}" target="_blank"><i class="fa fa-code"></i> See Code</a>
-					{% endif %}
+					{% endif %} -->
 				</p>
 				<p class="comment">
 					/* {{ project.desc }} */

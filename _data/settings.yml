@@ -30,16 +30,18 @@ seo:
 
 social:
 - {link: LinkedIn, icon: linkedin, url: 'htp://www.linkedin.com/in/angelocordon'}
-- {link: Behance, icon: behance, url: 'http://www.behance.net/angelocordon'}
-- {link: Dribbble, icon: dribbble, url: 'http://www.dribbble.com/angelocordon'}
 - {link: Github, icon: github-alt, url: 'http://www.github.com/angelocordon'}
+- {link: Dribbble, icon: dribbble, url: 'http://www.dribbble.com/angelocordon'}
+- {link: Behance, icon: behance, url: 'http://www.behance.net/angelocordon'}
 
 #-------------------------------
 # Past-Projects
 
 projects:
-- {name: 'A Vivid Visual', desc: "AVV's website is built with Jekyll and SASS, and hosted on Github.",url: 'avividvisual', github: 'avividvisual/avividvisual.github.io' }
-- {name: 'Sovereign Gaming League', desc: "Built a web-application using Ruby on Rails, SASS, Heroku and AWS." }
-- {name: 'The Great Baby Romp', desc: "Customized and branded a template for use with the Squarespace platform. Used Squarespace's version of Liquid, LESS for styling and Bootstrap." }
-- {name: 'Ask a Nanny', desc: " Created a custom Squarespace template that copied the original design from an iWeb blog. Also implemented a responsive layout using media queries and javascript. Tools used: Git, LESS, Bootstrap, Vanilla JS", url: 'askananny'}
-- {name: 'Life Well Organized', desc: "Designed and developed. Built using PHP to create a modularized architecture to plug and play various body content with footer and navigation elements. Used Javascript libraries to create a smooth user experience.", url: 'lifewellorganized'}
+- {name: 'OppSites', desc: 'Through several design sprints, built and worked on numerous key features using Ruby on Rails and Angular with short turn-arounds. Co-managed an outsourced team overseas to help us with bigger features and goals.', url: 'http://www.oppsites.com' }
+- {name: 'Shiploop', desc: 'Designed a mobile application to help customers schedule their package deliveries.', url: 'https://itunes.apple.com/us/app/shiploop/id981775905?mt=8' }
+- {name: 'Bevvy', desc: 'A web platform for drinkers by drinkers. Designed newsletter templates and many key pages and modules of the site.', url: 'http://www.bevvy.co' }
+- {name: 'Sovereign Gaming League', desc: 'Designed and developed an e-sports web platform. Tech used: Ruby on Rails and AWS.' }
+- {name: 'The Great Baby Romp', desc: 'Designed and developed a custom Squarespace template for annual San Francisco based parenting conference.' }
+- {name: 'Ask a Nanny', desc: 'Created a responsive, custom Squarespace template for child development blogger, Stef Tousignant.', url: 'http://www.askananny.com' }
+- {name: 'Life Well Organized', desc: 'Designed and developed. Built using PHP to create a modularized architecture to plug and play various body content with footer and navigation elements. Used Javascript libraries to create a smooth user experience.', url: 'http://www.lifewellorganized.com'}
