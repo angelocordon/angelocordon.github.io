@@ -5,3 +5,7 @@
     </div>
   </section>
 </template>
+
+<style>
+  body { font-family: 'Open Sans', sans-serif; }
+</style>
