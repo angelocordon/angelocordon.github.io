@@ -7,5 +7,12 @@
 </template>
 
 <style>
-  body { font-family: 'Open Sans', sans-serif; }
+  h1,
+  h2,
+  p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+  }
+
+  a:hover { text-decoration: underline }
 </style>
