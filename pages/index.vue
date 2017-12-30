@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <h1 class="title">
+  <div class="container">
+    <h1 class="title is-spaced">
       Hi, I'm Angelo
     </h1>
     <h2 class="subtitle">
@@ -18,7 +18,7 @@
     <p class="content">
       Elsewhere: Dribbble | GitHub | Medium
     </p>
-  </section>
+  </div>
 </template>
 
 <script>
