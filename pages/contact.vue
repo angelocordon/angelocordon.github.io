@@ -9,6 +9,9 @@
         <p class="content">
           Elsewhere: <a href="https://www.dribbble.com/angelocordon">Dribbble</a> | <a href="https://www.github.com/angelocordon">GitHub</a> | <a href="https://www.medium.com/@angelocordon">Medium</a>
         </p>
+        <p class="content">
+          <nuxt-link to="/">← Home</nuxt-link>
+        </p>
       </div>
       <div class="column">
         <contact-form />
