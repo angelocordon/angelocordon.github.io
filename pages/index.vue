@@ -15,7 +15,7 @@
           Currently, I’m designing and developing at <a>USEED</a>. Previously, I co-founded <a>AVV</a>, <a>Filipinos Forward</a> and a few <a>other projects</a>.
         </p>
         <p class="content">
-          Want to get in touch? <a>Let's connect</a>.
+          Want to get in touch? <nuxt-link to="/contact/">Let's connect</nuxt-link>.
         </p>
         <p class="content">
           Elsewhere: <a href="https://www.dribbble.com/angelocordon">Dribbble</a> | <a href="https://www.github.com/angelocordon">GitHub</a> | <a href="https://www.medium.com/@angelocordon">Medium</a>
