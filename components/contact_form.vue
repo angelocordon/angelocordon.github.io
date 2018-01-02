@@ -1,5 +1,9 @@
 <template>
-  <form name="contact-form">
+  <form name="contact-form" netlify netlify-honeypot="bot-field">
+    <p style="display:none;">
+      <label>Don’t fill this out: <input name="bot-field"></label>
+    </p>
+
     <div class="field">
       <label class="label" for="name">What's your name?</label>
       <div class="control">
